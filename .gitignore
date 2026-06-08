@@ -44,6 +44,7 @@ compile_commands.json
 # ======================== Python 环境 ========================
 .venv/
 venv/
+dev/
 env/
 ENV/
 .conda/
