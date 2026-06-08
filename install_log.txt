@@ -1,0 +1,33 @@
+/home/byronnar/anaconda3/envs/dev/lib/python3.11/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/home/byronnar/anaconda3/envs/dev/lib/python3.11/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running build_ext
+/home/byronnar/anaconda3/envs/dev/lib/python3.11/site-packages/torch/utils/cpp_extension.py:497: UserWarning: Attempted to use ninja as the BuildExtension backend but we could not find ninja.. Falling back to using the slow distutils backend.
+  warnings.warn(msg.format('we could not find ninja.'))
+/home/byronnar/anaconda3/envs/dev/lib/python3.11/site-packages/torch/utils/cpp_extension.py:416: UserWarning: The detected CUDA version (12.8) has a minor version mismatch with the version that was used to compile PyTorch (12.4). Most likely this shouldn't be a problem.
+  warnings.warn(CUDA_MISMATCH_WARN.format(cuda_str_version, torch.version.cuda))
+/home/byronnar/anaconda3/envs/dev/lib/python3.11/site-packages/torch/utils/cpp_extension.py:426: UserWarning: There are no /home/byronnar/anaconda3/envs/dev/bin/x86_64-conda-linux-gnu-c++ version bounds defined for CUDA version 12.8
+  warnings.warn(f'There are no {compiler_name} version bounds defined for CUDA version {cuda_str_version}')
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/spconv/sparse_conv_ext.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/spconv
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/iou3d/iou3d_cuda.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/iou3d
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/voxel/voxel_layer.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/voxel
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/roiaware_pool3d/roiaware_pool3d_ext.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/roiaware_pool3d
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/ball_query/ball_query_ext.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/ball_query
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/knn/knn_ext.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/knn
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/paconv/assign_score_withk_ext.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/paconv
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/group_points/group_points_ext.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/group_points
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/interpolate/interpolate_ext.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/interpolate
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/furthest_point_sample/furthest_point_sample_ext.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/furthest_point_sample
+copying build/lib.linux-x86_64-cpython-311/mmdet3d/ops/gather_points/gather_points_ext.cpython-311-x86_64-linux-gnu.so -> mmdet3d/ops/gather_points

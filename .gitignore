@@ -1,0 +1,175 @@
+# ================================================================
+#  FastBEV-Robot .gitignore
+#  智能机器人 3D 环境感知系统
+# ================================================================
+
+# ======================== Python 编译产物 ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ======================== C/C++/CUDA 编译产物 ========================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.cubin
+*.fatbin
+*.ptx
+*.gpu
+
+# ======================== 构建目录 ========================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+develop-eggs/
+sdist/
+wheels/
+MANIFEST
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# ======================== Python 环境 ========================
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.python-version
+
+# ======================== IDE ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# ======================== Jupyter ========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ======================== 日志和训练输出 ========================
+*.log
+*.log.json
+*.log.*
+work_dirs/
+exps/
+output/
+outputs/
+runs/
+wandb/
+trash/
+fail*/
+
+# ======================== 模型权重 ========================
+*.pth
+*.pt
+*.ckpt
+*.bin
+pretrained_models/
+pretrained/
+
+# ======================== ONNX / TensorRT ========================
+*.onnx
+*.engine
+*.plan
+*.trt
+*.uff
+TensorRT-Deploy/build/
+TensorRT-Deploy/model/
+TensorRT-Deploy/example-data/
+
+# ======================== 数据集 ========================
+dataset/
+data/
+datasets/
+*.pkl
+*.pkl.json
+*.pickle
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# ======================== 3D 模型文件 ========================
+*.obj
+*.ply
+*.stl
+*.off
+*.xyz
+
+# ======================== 图像/视频（demo 用） ========================
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.mp4
+*.avi
+
+# ======================== 压缩包 ========================
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# ======================== 测试和覆盖率 ========================
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+nosetests.xml
+*.cover
+
+# ======================== 系统文件 ========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# ======================== 其他 ========================
+arun_log
+figs/
+mmdet3d/.mim
+tools/quant
+**/quant
+celerybeat-schedule
+docs/_build/
+/site
